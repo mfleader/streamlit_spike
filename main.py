@@ -34,6 +34,7 @@ def main():
         ),
         columns=['pipeline', 'status']
     )
+    # would have to inject css styling here
     if st.button('show pipeline info'):
         st.write(pipedf)
     else:
